@@ -1,24 +1,48 @@
-# Lumen PHP Framework
+# Book Store - API
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Death_Note%2C_Book.svg/1200px-Death_Note%2C_Book.svg.png" width="25%" align="right" />
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+**book-store** is the Server Side part of a Full-Stack project to semester's final grade. <br/>
+Thanks to Professor [Alexandre Gomes](https://github.com/xandygomes) for all the saturday classes.
+A simple Laravel Lumen Project.
 
-## Official Documentation
+## Created with: 
+[*PHP:*](https://www.php.net/) A popular general-purpose scripting language that is especially suited to web development.
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
 
-## Contributing
+[*MySql:*](https://www.mysql.com/) A relational database management system (RDBMS) developed by Oracle that is based on structured query language (SQL).
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+[*Composer:*](https://getcomposer.org/) Composer is a tool for dependency management in PHP. It allows you to declare libraries your project depends on and it manages installation and library service updating.
 
-## Security Vulnerabilities
+[*Lumen:*](https://lumen.laravel.com/docs/9.x) An open-source PHP HTTP micro-framework created by Taylor Otwell as an alternative to Laravel to meet the demand of lightweight installations.
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+## Setting Up:
+Clone the project to your machine by running:
+```
+git clone https://github.com/TulioGuaraldoB/book-store.git
+```
 
-## License
+Then run the command:
+```
+composer build
+```
+To build all project dependencies to your PHP HTTP project.
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<br/>
+
+Create **.env** file then clone all the content from .env.example file.
+Then fill the .env variables with your project settings:
+- **DB_CONNECTION**
+- **DB_HOST**
+- **DB_PORT**
+- **DB_DATABASE**
+- **DB_USERNAME**
+- **DB_PASSWORD**
+
+## Running the project:
+To run the project at your machine run the next PHP command at your bash:
+```
+php -S localhost:{YOUR_HTTP_PORT} -t public
+```
+Change **{YOUR_HTTP_PORT}** by the PORT of your preference. Example: 8080.
