@@ -9,8 +9,6 @@ A simple Laravel Lumen Project.
 ## Created with: 
 [*PHP:*](https://www.php.net/) A popular general-purpose scripting language that is especially suited to web development.
 
-Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
-
 [*MySql:*](https://www.mysql.com/) A relational database management system (RDBMS) developed by Oracle that is based on structured query language (SQL).
 
 [*Composer:*](https://getcomposer.org/) Composer is a tool for dependency management in PHP. It allows you to declare libraries your project depends on and it manages installation and library service updating.
