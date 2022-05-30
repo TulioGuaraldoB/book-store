@@ -23,9 +23,9 @@ git clone https://github.com/TulioGuaraldoB/book-store.git
 
 Then run the command:
 ```
-composer build
+composer install
 ```
-To build all project dependencies to your PHP HTTP project.
+To build all project dependencies to your project.
 
 <br/>
 
@@ -39,7 +39,7 @@ Then fill the .env variables with your project settings:
 - **DB_PASSWORD**
 
 ## Running the project:
-To run the project at your machine run the next PHP command at your bash:
+To run the project at your machine run the following command at your bash:
 ```
 php -S localhost:{YOUR_HTTP_PORT} -t public
 ```
